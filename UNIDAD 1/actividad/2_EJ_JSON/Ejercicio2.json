@@ -1,0 +1,127 @@
+{
+  "Autor": {
+    "Nombre_Apellido": "Pedro Salinas",
+    "Indice": {
+      "Elemento": [
+        {
+          "Nombre": "Biografía",
+          "Subelemento": [
+            "Primeros años",
+            "Matrimonio y cátedra",
+            "Santander",
+            "Guerra civil y exilio"
+          ]
+        },
+        {
+          "Nombre": "Poeta del 27",
+          "Subelemento": [
+            "Etapas poéticas",
+            "Poeta del amor"
+          ]
+        },
+        "Prosista",
+        "Dramaturgo",
+        {
+          "Nombre": "Obra",
+          "Subelemento": [
+            {
+              "Nombre": "Poesía",
+              "Obras": [
+                {
+                  "Titulo": "Presagio",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Índice"],
+                  "Año": "1923"
+                },
+                {
+                  "Titulo": "Seguro azar",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Revista de Occidente"],
+                  "Año": "1929"
+                },
+                {
+                  "Titulo": "Fábula y signo",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Plutarco"],
+                  "Año": "1931"
+                },
+                {
+                  "Titulo": "La voz a ti debida",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Signo"],
+                  "Año": "1933"
+                },
+                {
+                  "Titulo": "Razón de amor",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Ediciones del Árbol", "Cruz y Raya"],
+                  "Año": "1936-1938",
+                  "Notas": "El dato de 1936guel N. Lira, 1938 se asume como rango de publicación 1936-1938."
+                },
+                {
+                  "Titulo": "Lost Angel and Other Poems",
+                  "Ciudad": "Baltimore",
+                  "Editorial": ["The Johns Hopkins Press"],
+                  "Año": "1938",
+                  "Notas": "Antología bilingüe con poemas inéditos. Trad. de Eleanor L. Thurnbull"
+                },
+                {
+                  "Titulo": "Poesía junta",
+                  "Ciudad": "Buenos Aires",
+                  "Editorial": ["Losada"],
+                  "Año": "1942"
+                },
+                {
+                  "Titulo": "El contemplado (Mar; poema)",
+                  "Ciudad": "México",
+                  "Editorial": ["Nueva Floresta", "Stylo"],
+                  "Año": "1946"
+                },
+                {
+                  "Titulo": "Todo más claro y otros poemas",
+                  "Ciudad": "Buenos Aires",
+                  "Editorial": ["Sudamericana"],
+                  "Año": "1949"
+                },
+                {
+                  "Titulo": "Poesías completas",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Aguilar"],
+                  "Año": "1955",
+                  "Notas": "Incluye el libro inédito Confianza"
+                },
+                {
+                  "Titulo": "Poesías completas",
+                  "Ciudad": "Madrid",
+                  "Editorial": ["Aguilar"],
+                  "Año": "1956",
+                  "Notas": "Edición de Juan Marichal"
+                },
+                {
+                  "Titulo": "Volverse y otros poemas",
+                  "Ciudad": "Milán",
+                  "Editorial": ["All'insegna del pesce d'oro"],
+                  "Año": "1957"
+                },
+                {
+                  "Titulo": "Poesía completas",
+                  "Ciudad": "Barcelona",
+                  "Editorial": ["Barral"],
+                  "Año": "1971"
+                }
+              ]
+            },
+            "Teatro",
+            "Traducciones",
+            "Narrativa",
+            "Ensayo",
+            "Epistolario"
+          ]
+        },
+        "Referencias",
+        "Notas",
+        "Bibliografía"
+      ]
+    }
+  }
+}

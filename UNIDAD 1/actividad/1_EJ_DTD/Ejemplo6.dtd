@@ -1,0 +1,91 @@
+<!-- Definición de Tipo de Documento (DTD) para un documento de Factura. -->
+
+<!-- El elemento raíz es <Factura> -->
+
+<!ELEMENT Factura (Emisor, Cliente, Datos_Factura, Conceptos, Totales, Pago)>
+
+<!-- ========================= -->
+
+<!-- 1. BLOQUES DE CABECERA -->
+
+<!-- ========================= -->
+
+<!ELEMENT Emisor (Nombre, Direccion_Completa, NIF, Email, Telefono)>
+
+<!ELEMENT Cliente (Nombre, NIF?, Telefono)>
+
+<!ELEMENT Datos_Factura (Tipo, Numero, Fecha)>
+
+<!ATTLIST Datos_Factura
+Moneda CDATA #IMPLIED  <!-- Atributo opcional para la moneda (ej. EUR) -->
+
+<!-- ========================= -->
+
+<!-- 2. LÍNEAS DE DETALLE (CONCEPTOS) -->
+
+<!-- ========================= -->
+
+<!-- Debe contener uno o más conceptos (líneas de producto) -->
+
+<!ELEMENT Conceptos (Concepto+)>
+
+<!-- Un concepto contiene la descripción, precio, unidades, subtotal, IVA y total de línea. -->
+
+<!ELEMENT Concepto (Descripcion, Precio, Unidades, Subtotal, IVA, Total)>
+
+<!ATTLIST Concepto
+ID CDATA #REQUIRED  <!-- Identificador único del concepto (ej. SKU) -->
+
+<!-- ========================= -->
+
+<!-- 3. BLOQUES DE PIE -->
+
+<!-- ========================= -->
+
+<!ELEMENT Totales (Base_Imponible, IVA_Total, Total_Factura)>
+
+<!ELEMENT Pago (Metodo, IBAN)>
+
+<!-- ========================= -->
+
+<!-- 4. ELEMENTOS SIMPLES (PCDATA) -->
+
+<!-- ========================= -->
+
+<!ELEMENT Nombre (#PCDATA)>
+
+<!ELEMENT Direccion_Completa (#PCDATA)>
+
+<!ELEMENT NIF (#PCDATA)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Telefono (#PCDATA)>
+
+<!ELEMENT Tipo (#PCDATA)>
+
+<!ELEMENT Numero (#PCDATA)>
+
+<!ELEMENT Fecha (#PCDATA)>
+
+<!ELEMENT Descripcion (#PCDATA)>
+
+<!ELEMENT Precio (#PCDATA)>
+
+<!ELEMENT Unidades (#PCDATA)>
+
+<!ELEMENT Subtotal (#PCDATA)>
+
+<!ELEMENT IVA (#PCDATA)>
+
+<!ELEMENT Total (#PCDATA)>
+
+<!ELEMENT Base_Imponible (#PCDATA)>
+
+<!ELEMENT IVA_Total (#PCDATA)>
+
+<!ELEMENT Total_Factura (#PCDATA)>
+
+<!ELEMENT Metodo (#PCDATA)>
+
+<!ELEMENT IBAN (#PCDATA)>

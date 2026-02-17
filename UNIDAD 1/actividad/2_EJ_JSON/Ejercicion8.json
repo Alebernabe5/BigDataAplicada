@@ -1,0 +1,34 @@
+{
+  "Diploma": {
+    "Tipo_Documento": "DIPLOMA",
+    
+    "Emisor": {
+      "Nombre_Institucion": "Instituto Español de Medicinas Alternativas (INSESMA)",
+      "Certifica_Frase": "certifica que",
+      "Asociacion_Colaboradora": "APTN COFENAT"
+    },
+    
+    "Beneficiario": {
+      "Nombre_Completo": "Joaquín Catalán Flores",
+      "Descripcion_Logro": "ha realizado la formación y superado todas las pruebas exigidas, siendo por tanto"
+    },
+    
+    "Contenido": {
+      "Titulo_Obtenido": "DIPLOMADO SUPERIOR EN OSTEOPATÍA"
+    },
+    
+    "Expedicion": {
+      "Lugar": "Castellón (España)",
+      "Fecha": "XX de XXXXX de 2015"
+    },
+    
+    "Firmantes": {
+      "Roles": [
+        "El alumno",
+        "Profesor",
+        "Director"
+      ],
+      "Sello_Central": "true"
+    }
+  }
+}

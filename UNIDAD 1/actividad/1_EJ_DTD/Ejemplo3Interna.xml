@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Declaración Externa: Indica que la definición de la estructura (DTD) 
+    se encuentra en el archivo "peliculas_disney.dtd".
+-->
+<!DOCTYPE Estrenos_Disney SYSTEM "peliculas_disney.dtd" [
+    <!-- 
+        Declaración Interna: Definimos una entidad para la fecha común de producción.
+        Esta entidad solo es válida dentro de este documento.
+    -->
+    <!ENTITY fecha_base "1937-1942">
+]>
+<Estrenos_Disney>
+    <!-- Se incluye la entidad definida internamente en el comentario -->
+    <!-- Películas producidas entre &fecha_base; -->
+
+    <Pelicula>
+        <Titulo>Blancanieves y los siete enanitos</Titulo>
+        <Fecha>14/12/1937</Fecha>
+        <Directores>David Hand, Perce Pearce, William Cottrell, Larry Morey, Wilfred Jackson y Ben Sharpsteen</Directores>
+        <Escritores>Ted Sears, Richard Creedon, Otto Englander, Dick Rickard, Earl Hurd, Merrill De Maris, Dorothy Ann Blank y Webb Smith</Escritores>
+        <Productores>Walt Disney</Productores>
+        <Compositores>Frank Churchill, Paul Smith, Leigh Harline</Compositores>
+    </Pelicula>
+
+    <Pelicula>
+        <Titulo>Pinocho</Titulo>
+        <Fecha>31/01/1940</Fecha>
+        <Directores>Ben Sharpsteen (Supervisor), Hamilton Luske (Supervisor), William "Bill" Roberts, Norman Ferguson, Jack Kinney, Wilfred Jackson and T. Hee</Directores>
+        <Escritores>Ted Sears, Otto Englander, Webb Smith , William Cottrell, Joseph Sabo, Erdman Penner y Aurelius Battaglia</Escritores>
+        <Productores>Walt Disney</Productores>
+        <Compositores>Leigh Harline, Paul J. Smith y Ned Washington</Compositores>
+    </Pelicula>
+    
+    <Pelicula>
+        <Titulo>Dumbo</Titulo>
+        <Fecha>16/10/1941</Fecha>
+        <Directores>Ben Sharpsteen, Norman Ferguson, Wilfred Jackson, William "Bill" Roberts, Jack Kinney y Samuel Armstrong</Directores>
+        <Escritores>Joe Grant, Dick Huemer y Otto Englander</Escritores>
+        <Productores>Walt Disney</Productores>
+        <Compositores>Frank Churchill y Oliver Wallace</Compositores>
+    </Pelicula>
+
+</Estrenos_Disney>

@@ -1,0 +1,50 @@
+a. ¿Qué crees que representan los datos? Explica detalladamente cómo están organizados.
+
+Los datos representan el resultado de una búsqueda de imágenes (probablemente con el término "potato jpg"). Es una respuesta típica de una API de búsqueda que devuelve información detallada sobre los archivos encontrados.
+
+Organización: La información está organizada jerárquicamente:
+
+ResultSet (Objeto Contenedor): Es el objeto raíz que incluye los metadatos de la búsqueda (cuántos resultados hay en total y cuántos se han devuelto).
+
+Result (Array/Vector): Es la lista donde se almacenan todos los resultados encontrados en esta llamada a la API (en este caso, dos resultados).
+
+Objetos de Resultado: Cada elemento dentro del array Result es un objeto que describe una imagen específica con sus propiedades: Title, Summary, Url, FileSize, Height, Width, y un sub-objeto anidado (Thumbnail).
+
+Thumbnail (Objeto Anidado): Proporciona las dimensiones y la URL específicas para la miniatura de la imagen.
+
+----------------------------------------------------------------------------------------------
+b. ¿Cuántos vectores o arrays hay definidos en este fragmento de código? ¿Qué almacena cada
+posición del vector?
+
+Hay un único vector o array definido en el fragmento de código: Result.
+
+Cada posición del vector almacena un objeto JSON completo que contiene todos los metadatos (título, resumen, URLs, peso, formato, dimensiones) de una única imagen encontrada.
+
+Posición 0: Almacena el objeto que describe el primer resultado (la imagen con el resumen sobre las propiedades de la patata para la piel).
+
+Posición 1: Almacena el objeto que describe el segundo resultado (la imagen con el resumen sobre la receta Puneri Aloo).
+
+----------------------------------------------------------------------------------------------
+c. ¿Cuántos atributos de tipo numérico hay en el archivo y a qué atributo y objeto corresponden?
+----------------------------------------------------------------------------------------------
+Un atributo numérico en JSON debe ser un valor sin comillas. Si contamos solo los valores que son estrictamente numéricos (tipo integer o float), encontramos 4 atributos:
+
+Nota sobre los valores entre comillas: Aunque campos como totalResultsAvailable, Height o Width contienen números, están representados como cadenas de texto (Strings) porque están encerrados entre comillas dobles (e.g., "362").
+
+
+d. Minificar un archivo JSON consiste en eliminar saltos de línea, tabulaciones, espacios
+innecesarios etc. buscando que el archivo resultante ocupe menos espacio y sea más fácilmente
+interpretable por un computador. Existen herramientas web que, dado un archivo JSON,
+permiten obtener su representación minificada como http://www.webtoolkitonline.com/jsonminifier.
+html o http://www.httputility.net/json-minifier.aspx. Entrar en alguna de estas páginas
+para obtener la representación minificada del archivo JSON y describir qué cambios se han
+producido.
+
+{"ResultSet":{"totalResultsAvailable":"1827221","totalResultsReturned":2,"firstResultPosition":1,"Result":[{"Title":"potato jpg","Summary":"Kentang Si bungsu dari keluarga Solanum tuberosum L\nini ternyata tiene khasiat para reducir arrugas, acné, manchas negras y enrojecimiento de la piel. Usar una vez a la semana como","Url":"http://www.aprenderaprogramar.com/spaw/uploads/images/potato.jpg","ClickUrl":"http://www.aprenderaprogramar.com/spaw/uploads/images/potato.jpg","RefererUrl":"http://www.mediaindonesia.com/mediaperempuan/index.php?ar_id=Nzkw","FileSize":22630,"FileFormat":"jpeg","Height":"362","Width":"532","Thumbnail":{"Url":"http://thm-a01.yimg.com/nimage/557094559c18f16a","Height":"98","Width":"145"}},{"Title":"potato jpg","Summary":"Introduction of puneri aloo This is a traditional\npotato preparation flavoured with curry leaves and peanuts and can be eaten on\nfasting day Preparation time 10 min","Url":"http://www.infovisual.info/01/photo/potato.jpg","ClickUrl":"http://www.infovisual.info/01/photo/potato.jpg","RefererUrl":"http://aprenderaprogramar.com.com/puneri-alooindian-%20recipe","FileSize":119398,"FileFormat":"jpeg","Height":"685","Width":"1024","Thumbnail":{"Url":"http://thm-a01.yimg.com/nimage/7fa23212efe84b64","Height":"107","Width":"160"}}]}}
+
+Cambios Producidos por la Minificación
+Eliminación de Caracteres Invisibles: Se eliminaron todos los saltos de línea, tabulaciones y espacios superfluos que solo servían para la legibilidad humana.
+
+Compactación Total: Todo el contenido del archivo se comprimió en una única línea de texto.
+
+Aumento de Eficiencia: El archivo resultante ocupa el mínimo espacio posible y es más rápido de procesar para sistemas y aplicaciones informáticas.

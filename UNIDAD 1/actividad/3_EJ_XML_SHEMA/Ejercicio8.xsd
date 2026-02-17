@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- ELEMENTO RAÍZ -->
+  <xs:element name="Diploma">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- INSTITUCIÓN -->
+        <xs:element name="Institucion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre" type="xs:string"/>
+              <xs:element name="Acronimo" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- CERTIFICACIÓN -->
+        <xs:element name="Certificacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Alumno" type="xs:string"/>
+              <xs:element name="Descripcion" type="xs:string"/>
+              <xs:element name="Titulo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- EMISIÓN -->
+        <xs:element name="Emision">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lugar" type="xs:string"/>
+              <xs:element name="Fecha" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- FIRMAS -->
+        <xs:element name="Firmas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Alumno" type="xs:string"/>
+              <xs:element name="Profesor" type="xs:string" minOccurs="0"/>
+              <xs:element name="Director" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

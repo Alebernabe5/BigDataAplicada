@@ -1,0 +1,40 @@
+10. Detectar los errores sintácticos en el siguiente documento XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<numeros>
+<1 letra="u" letra="n" letra="o">1</>
+<2 letra="d" letra="o" letra="s">22</>
+<6 letra="s" letra="e" letra="i" letra="s">666666</>
+</numeros>
+
+---------RESPUESTA--------------
+
+
+1. Nombres de Etiquetas Inválidos (Líneas 3, 4 y 5)
+Líneas afectadas:
+
+<1 letra="u" letra="n" letra="o">1</>
+
+<2 letra="d" letra="o" letra="s">22</>
+
+<6 letra="s" letra="e" letra="i" letra="s">666666</>
+
+Problema: Los nombres de los elementos XML no pueden comenzar con un dígito numérico (0-9). Deben comenzar con una letra o un guion bajo (_).
+
+
+2. Atributos Duplicados dentro de una Etiqueta (Líneas 3, 4 y 5)
+Líneas afectadas:
+
+<1 letra="u" letra="n" letra="o">
+
+<2 letra="d" letra="o" letra="s">
+
+<6 letra="s" letra="e" letra="i" letra="s">
+
+Problema: Los atributos dentro de una misma etiqueta deben tener nombres únicos. Aquí se repite el nombre de atributo letra múltiples veces.
+
+
+3. Etiqueta de Cierre Mal Formada (Línea 3)
+Línea afectada: </>
+
+Problema: La etiqueta de cierre debe incluir el nombre del elemento que está cerrando. No se puede dejar vacía. Por ejemplo, si la etiqueta de apertura fuera <uno>, la de cierre debería ser </uno>.
+

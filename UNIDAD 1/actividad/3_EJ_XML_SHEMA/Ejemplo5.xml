@@ -1,0 +1,55 @@
+{
+  "Conjugacion": {
+    "Verbo": "Cantar",
+    "Conjugacion": "Primera",
+    "Tiempos_Simples": {
+      "Tiempo": [
+        {
+          "Tiempo_Verbal": "Presente",
+          "Singular1": "Yo canto",
+          "Singular2": "Tu cantas",
+          "Singular3": "El canta",
+          "Plural1": "Nosotros cantamos",
+          "Plural2": "Vosotros cantais",
+          "Plural3": "Ellos cantan"
+        },
+        {
+          "Tiempo_Verbal": "Pretérito Imperfecto",
+          "Singular1": "Yo cantaba",
+          "Singular2": "Tu cantabas",
+          "Singular3": "El cantaba",
+          "Plural1": "Nosotros cantábamos",
+          "Plural2": "Vosotros cantabais",
+          "Plural3": "Ellos cantaban"
+        },
+        {
+          "Tiempo_Verbal": "Pretérito Perfecto Simple",
+          "Singular1": "Yo canté",
+          "Singular2": "Tu cantaste",
+          "Singular3": "El cantó",
+          "Plural1": "Nosotros cantamos",
+          "Plural2": "Vosotros cantasteis",
+          "Plural3": "Ellos cantaron"
+        },
+        {
+          "Tiempo_Verbal": "Futuro Simple",
+          "Singular1": "Yo cantaré",
+          "Singular2": "Tu cantarás",
+          "Singular3": "El cantará",
+          "Plural1": "Nosotros cantaremos",
+          "Plural2": "Vosotros cantaréis",
+          "Plural3": "Ellos cantarán"
+        },
+        {
+          "Tiempo_Verbal": "Condicional Simple",
+          "Singular1": "Yo cantaría",
+          "Singular2": "Tu cantarías",
+          "Singular3": "El cantaría",
+          "Plural1": "Nosotros cantaríamos",
+          "Plural2": "Vosotros cantaríais",
+          "Plural3": "Ellos cantarían"
+        }
+      ]
+    }
+  }
+}

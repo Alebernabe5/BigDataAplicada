@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Escribe un documento XML bien formado para representar los datos más relevantes de los cinco primeros estrenos de películas de Walt Disney  -->
+
+<Estrenos_Disney>
+   <Pelicula> Blancanieves y los siete enanitos 
+      <Fecha> 14/12/1937 </Fecha>
+      <Directores> David Hand, Perce Pearce, William Cottrell, Larry Morey, Wilfred Jackson y Ben Sharpsteen   
+      </Directores>
+      <Escritores> Ted Sears, Richard Creedon, Otto Englander, Dick Rickard, Earl Hurd, Merrill De Maris, Dorothy Ann Blank y Webb Smith
+      </Escritores>
+      <Productores> Walt Disney </Productores>
+      <Compositores> Frank Churchill, Paul Smith, Leigh Harline
+      </Compositores>
+   </Pelicula>
+
+   <Pelicula> Pinocho 
+      <Fecha> 31/01/1940 </Fecha>
+      <Directores> Ben Sharpsteen (Supervisor), Hamilton Luske (Supervisor), William "Bill" Roberts, Norman Ferguson, Jack Kinney, Wilfred Jackson and T. Hee   
+      </Directores>
+      <Escritores> Ted Sears, Otto Englander, Webb Smith , William Cottrell, Joseph Sabo, Erdman Penner y Aurelius Battaglia
+      </Escritores>
+      <Productores> Walt Disney </Productores>
+      <Compositores> Leigh Harline, Paul J. Smith y Ned Washington
+      </Compositores>
+   </Pelicula>
+
+   <Pelicula> Fantasía 
+      <Fecha> 06/11/1940 </Fecha>
+      <Directores> James Algar, Samuel Armstrong, Ford Beebe Jr, Norman Ferguson, Jim Handley, Thornton Hee, Wilfred Jackson, Hamilton Luske, Bill Roberts, Paul Satterfield y Ben Sharpsteen.  
+      </Directores>
+      <Escritores> Lee Blair, Elmer Plummer, Phil Dike
+      </Escritores>
+      <Productores> Walt Disney y Ben Sharpsteen </Productores>
+      <Compositores> Stephen Csillag </Compositores>
+   </Pelicula>   
+
+   <Pelicula> Dumbo 
+      <Fecha> 16/10/1941 </Fecha>
+      <Directores> Ben Sharpsteen, Norman Ferguson, Wilfred Jackson, William "Bill" Roberts, Jack Kinney y Samuel Armstrong 
+      </Directores>
+      <Escritores> Joe Grant, Dick Huemer y Otto Englander
+      </Escritores>
+      <Productores> Walt Disney </Productores>
+      <Compositores> Frank Churchill y Oliver Wallace
+      </Compositores>
+   </Pelicula>
+
+   <Pelicula> Bambi 
+      <Fecha> 12/04/1942 </Fecha>
+      <Directores> David Hand, James Algar, Bill Roberts, Norman Wright, Samuel Armstrong, Paul Satterfield, Graham Heid
+      </Directores>
+      <Escritores> Perce Pearce, Larry Morey, Vernon Stallings, Melvin Shaw, Carl Fallberg, Chuck Couch y Ralph Wright
+      </Escritores>
+      <Productores> Walt Disney </Productores>
+      <Compositores> Frank Churchill y Edward H. Plumb
+      </Compositores>
+   </Pelicula>   
+
+</Estrenos_Disney>
+
+<Estrenos_Disney>
+
+   <Pelicula
+      Titulo="Blancanieves y los siete eneanitos"
+      Fecha="14/02/1937"
+      Directores="David Hand, Perce Pearce, William Cottrell, Larry Morey, Wilfred Jackson y Ben Sharpsteen "
+      Escritores="ed Sears, Richard Creedon, Otto Englander, Dick Rickard, Earl Hurd, Merrill De Maris, Dorothy Ann Blank y Webb Smith"
+      Productores="Walt Disney"
+      Compositores="Frank Churchill, Paul Smith, Leigh Harline"
+   />
+   <Pelicula
+      Titulo="Pinocho"
+      Fecha="31/01/1940"
+      Directores="Ben Sharpsteen (Supervisor), Hamilton Luske (Supervisor), William Bill Roberts, Norman Ferguson, Jack Kinney, Wilfred Jackson and T. Hee"
+      Escritores="Ted Sears, Otto Englander, Webb Smith , William Cottrell, Joseph Sabo, Erdman Penner y Aurelius Battaglia"
+      Productores="Walt Disney"
+      Compositores="Leigh Harline, Paul J. Smith y Ned Washington"
+   />
+   <Pelicula
+      Titulo="Fantasía"
+      Fecha="306/11/1940"
+      Directores="James Algar, Samuel Armstrong, Ford Beebe Jr, Norman Ferguson, Jim Handley, Thornton Hee, Wilfred Jackson, Hamilton Luske, Bill Roberts, Paul Satterfield y Ben Sharpsteen."
+      Escritores="Lee Blair, Elmer Plummer, Phil Dike"
+      Productores="Walt Disney y Ben Sharpsteen"
+      Compositores="Stephen Csillag"
+   />  
+
+   <Pelicula 
+        Titulo="Dumbo"
+        Fecha="16/10/1941"
+        Directores="Ben Sharpsteen, Norman Ferguson, Wilfred Jackson, William 'Bill' Roberts, Jack Kinney y Samuel Armstrong"
+        Escritores="Joe Grant, Dick Huemer y Otto Englander"
+        Productores="Walt Disney"
+        Compositores="Frank Churchill y Oliver Wallace"
+    />
+
+    <Pelicula 
+        Titulo="Bambi"
+        Fecha="12/04/1942"
+        Directores="David Hand, James Algar, Bill Roberts, Norman Wright, Samuel Armstrong, Paul Satterfield, Graham Heid"
+        Escritores="Perce Pearce, Larry Morey, Vernon Stallings, Melvin Shaw, Carl Fallberg, Chuck Couch y Ralph Wright"
+        Productores="Walt Disney"
+        Compositores="Frank Churchill y Edward H. Plumb"
+    /> 
+
+</Estrenos_Disney>
+
+

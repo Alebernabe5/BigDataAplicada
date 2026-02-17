@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Albaran>
+    
+    <Cabecera>
+        <Numero_Albaran>A2024-00123</Numero_Albaran>
+        <Fecha>2025-11-05</Fecha>
+        <NIF_CIF>B12345678</NIF_CIF>
+        <Pago>Transferencia</Pago>
+    </Cabecera>
+
+    <Cliente>
+        <Nombre>CLIENTE S.L.</Nombre>
+        <Domicilio>Calle Ficticia, 42, 28001 Madrid</Domicilio>
+        <Poblacion>Madrid</Poblacion>
+    </Cliente>
+    
+    <Lineas_Detalle>
+        
+        <Linea>
+            <Cantidad>10</Cantidad>
+            <Codigo>REF001</Codigo>
+            <Referencia_Articulo>Tornillo autorroscante 5x50</Referencia_Articulo>
+            <Precio_Unitario>0.15</Precio_Unitario>
+            <Euros>1.50</Euros>
+        </Linea>
+        
+        <Linea>
+            <Cantidad>5</Cantidad>
+            <Codigo>REF045</Codigo>
+            <Referencia_Articulo>Martillo de uña profesional</Referencia_Articulo>
+            <Precio_Unitario>12.99</Precio_Unitario>
+            <Euros>64.95</Euros>
+        </Linea>
+        
+        <Linea>
+            <Cantidad>2</Cantidad>
+            <Codigo>REF112</Codigo>
+            <Referencia_Articulo>Cinta métrica 5m</Referencia_Articulo>
+            <Precio_Unitario>4.50</Precio_Unitario>
+            <Euros>9.00</Euros>
+        </Linea>
+        
+        </Lineas_Detalle>
+    
+    <Pie>
+        <Observaciones>La entrega se realiza en el almacén de destino.</Observaciones>
+        <Seccion_Entrega>
+            <Agente>Juan Pérez</Agente>
+            <Firma_Transportista></Firma_Transportista>
+            <Firma_Cliente></Firma_Cliente>
+        </Seccion_Entrega>
+    </Pie>
+    
+</Albaran>

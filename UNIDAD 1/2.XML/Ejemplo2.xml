@@ -1,0 +1,114 @@
+<Autor>
+    <Nombre>Pedro Salinas</Nombre>
+    <Indice>
+        <Elemento>Biografía
+            <Subelemento>Primeros años</Subelemento>
+            <Subelemento>Matrimonio y cátedra</Subelemento>
+            <Subelemento>Santander</Subelemento>
+            <Subelemento>Guerra civil y exilio</Subelemento>
+        </Elemento>
+
+        <Elemento>Poeta del 27
+            <Subelemento>Etapas poéticas</Subelemento>
+            <Subelemento>Poeta del amor</Subelemento>
+        </Elemento>
+
+        <Elemento>Prosista</Elemento>
+        <Elemento>Dramaturgo</Elemento>
+
+        <Elemento>Obra
+            <Subelemento>Poesía
+                <Obra>
+                    <Titulo>Presagio</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Índice</Editorial>
+                    <Año>1923</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Seguro azar</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Revista de Occidente</Editorial>
+                    <Año>1929</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Fábula y signo</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Plutarco</Editorial>
+                    <Año>1931</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>La voz a ti debida</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Signo</Editorial>
+                    <Año>1933</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Razón de amor</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Ediciones del Árbol; Cruz y Raya</Editorial>
+                    <Año>1936-1938</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Lost Angel and Other Poems</Titulo>
+                    <Ciudad>Baltimore</Ciudad>
+                    <Editorial>The Johns Hopkins Press</Editorial>
+                    <Año>1938</Año>
+                    <Notas>Antología bilingüe con poemas inéditos. Trad. de Eleanor L. Thurnbull</Notas>
+                </Obra>
+                <Obra>
+                    <Titulo>Poesía junta</Titulo>
+                    <Ciudad>Buenos Aires</Ciudad>
+                    <Editorial>Losada</Editorial>
+                    <Año>1942</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>El contemplado (Mar; poema)</Titulo>
+                    <Ciudad>México</Ciudad>
+                    <Editorial>Nueva Floresta; Stylo</Editorial>
+                    <Año>1946</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Todo más claro y otros poemas</Titulo>
+                    <Ciudad>Buenos Aires</Ciudad>
+                    <Editorial>Sudamericana</Editorial>
+                    <Año>1949</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Poesías completas</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Aguilar</Editorial>
+                    <Año>1955</Año>
+                    <Notas>Incluye el libro inédito Confianza</Notas>
+                </Obra>
+                <Obra>
+                    <Titulo>Poesías completas</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Aguilar</Editorial>
+                    <Año>1956</Año>
+                    <Notas>Edición de Juan Marichal</Notas>
+                </Obra>
+                <Obra>
+                    <Titulo>Volverse y otros poemas</Titulo>
+                    <Ciudad>Milán</Ciudad>
+                    <Editorial>All'insegna del pesce d'oro</Editorial>
+                    <Año>1957</Año>
+                </Obra>
+                <Obra>
+                    <Titulo>Poesía completas</Titulo>
+                    <Ciudad>Barcelona</Ciudad>
+                    <Editorial>Barral</Editorial>
+                    <Año>1971</Año>
+                </Obra>
+            </Subelemento>
+            <Subelemento>Teatro</Subelemento>
+            <Subelemento>Traducciones</Subelemento>
+            <Subelemento>Narrativa</Subelemento>
+            <Subelemento>Ensayo</Subelemento>
+            <Subelemento>Epistolario</Subelemento>
+        </Elemento>
+
+        <Elemento>Referencias</Elemento>
+        <Elemento>Notas</Elemento>
+        <Elemento>Bibliografía</Elemento>
+    </Indice>
+</Autor>

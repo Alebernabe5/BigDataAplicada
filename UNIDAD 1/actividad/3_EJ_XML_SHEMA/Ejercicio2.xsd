@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Elemento raíz -->
+  <xs:element name="Autor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Nombre_Apellido" type="xs:string"/>
+        <xs:element name="Indice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Elemento" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="Nombre" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Subelemento" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Escribe un documento XML bien formado para representar la clasificación del grupo A de la Champinos League de la temporada 2019-2020  -->
+
+<Clasificacion>
+   <Temporada> 2019-2020 </Temporada>
+   <Grupo> A </Grupo>
+   <Equipo> PSG
+      <PJ>  6  </PJ>
+      <V>   5  </V>
+      <E>   1  </E>
+      <D>   0  </D>
+      <GF>  17 </GF>
+      <GC>  2  </GC>
+      <DG>  15 </DG>
+      <Pts> 16 </Pts>
+   </Equipo>
+
+   <Equipo> Real Madrid 
+      <PJ>  6  </PJ>
+      <V>   3  </V>
+      <E>   2  </E>
+      <D>   1  </D>
+      <GF>  14 </GF>
+      <GC>  8  </GC>
+      <DG>  6  </DG>
+      <Pts> 11 </Pts>
+   </Equipo>   
+
+   <Equipo> Club Brujas
+      <PJ>  6  </PJ>
+      <V>   0  </V>
+      <E>   3  </E>
+      <D>   3  </D>
+      <GF>  4  </GF>
+      <GC>  12 </GC>
+      <DG>  -8 </DG>
+      <Pts> 3  </Pts>
+   </Equipo>
+
+   <Equipo> Galatasaray
+      <PJ>  6   </PJ>
+      <V>   0   </V>
+      <E>   2   </E>
+      <D>   4   </D>
+      <GF>  1   </GF>
+      <GC>  14  </GC>
+      <DG>  -13 </DG>
+      <Pts> 2   </Pts>
+   </Equipo>
+   
+</Clasificacion>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Clasificacion>
+    <Temporada>2019-2020</Temporada>
+    <Grupo>A</Grupo>
+
+    <Equipo Nombre="PSG">
+        <PJ>6</PJ>
+        <V>5</V>
+        <E>1</E>
+        <D>0</D>
+        <GF>17</GF>
+        <GC>2</GC>
+        <DG>15</DG>
+        <Pts>16</Pts>
+    </Equipo>
+
+    <Equipo Nombre="Real Madrid">
+        <PJ>6</PJ>
+        <V>3</V>
+        <E>2</E>
+        <D>1</D>
+        <GF>14</GF>
+        <GC>8</GC>
+        <DG>6</DG>
+        <Pts>11</Pts>
+    </Equipo>
+
+    <Equipo Nombre="Club Brujas">
+        <PJ>6</PJ>
+        <V>0</V>
+        <E>3</E>
+        <D>3</D>
+        <GF>4</GF>
+        <GC>12</GC>
+        <DG>-8</DG>
+        <Pts>3</Pts>
+    </Equipo>
+
+    <Equipo Nombre="Galatasaray">
+        <PJ>6</PJ>
+        <V>0</V>
+        <E>2</E>
+        <D>4</D>
+        <GF>1</GF>
+        <GC>14</GC>
+        <DG>-13</DG>
+        <Pts>2</Pts>
+    </Equipo>
+
+</Clasificacion>
+   
+
+
+
+
+

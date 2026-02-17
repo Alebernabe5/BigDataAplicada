@@ -1,0 +1,96 @@
+<!-- Definición de Tipo de Documento (DTD) para un documento de Albarán. -->
+
+<!-- El elemento raíz es <Albaran> -->
+
+<!ELEMENT Albaran (Cabecera, Cliente, Lineas_Detalle, Pie)>
+
+<!-- ========================= -->
+
+<!-- 1. BLOQUES DE CABECERA -->
+
+<!-- ========================= -->
+
+<!ELEMENT Cabecera (Numero, Fecha, NIF)>
+
+<!-- ========================= -->
+
+<!-- 2. BLOQUE DE CLIENTE -->
+
+<!-- ========================= -->
+
+<!-- Poblacion y Pago son opcionales -->
+
+<!ELEMENT Cliente (Nombre_Cliente, Domicilio, Poblacion?, Pago?)>
+
+<!-- ========================= -->
+
+<!-- 3. LÍNEAS DE DETALLE -->
+
+<!-- ========================= -->
+
+<!-- Debe contener uno o más artículos (al menos uno) -->
+
+<!ELEMENT Lineas_Detalle (Linea+)>
+
+<!-- Una línea contiene la cantidad, código, referencia, precio y total en euros. -->
+
+<!ELEMENT Linea (Cantidad, Codigo, Referencia_Articulo, Precio, Euros)>
+
+<!ATTLIST Linea
+ID CDATA #IMPLIED  <!-- ID opcional para la línea -->
+
+<!-- ========================= -->
+
+<!-- 4. BLOQUE DE PIE -->
+
+<!-- ========================= -->
+
+<!ELEMENT Pie (Observaciones?, Seccion_Entrega)>
+
+<!-- La sección de entrega contiene el agente, bultos, puntos y confirmación del cliente. -->
+
+<!ELEMENT Seccion_Entrega (Agente, Enviado_Por?, Bultos?, Puntos?, Confirma_Cliente)>
+
+<!-- ========================= -->
+
+<!-- 5. ELEMENTOS SIMPLES (PCDATA) -->
+
+<!-- ========================= -->
+
+<!ELEMENT Numero (#PCDATA)>
+
+<!ELEMENT Fecha (#PCDATA)>
+
+<!ELEMENT NIF (#PCDATA)>
+
+<!ELEMENT Nombre_Cliente (#PCDATA)>
+
+<!ELEMENT Domicilio (#PCDATA)>
+
+<!ELEMENT Poblacion (#PCDATA)>
+
+<!ELEMENT Pago (#PCDATA)>
+
+<!ELEMENT Cantidad (#PCDATA)>
+
+<!ELEMENT Codigo (#PCDATA)>
+
+<!ELEMENT Referencia_Articulo (#PCDATA)>
+
+<!ELEMENT Precio (#PCDATA)>
+
+<!ELEMENT Euros (#PCDATA)>
+
+<!ELEMENT Observaciones (#PCDATA)>
+
+<!ELEMENT Agente (#PCDATA)>
+
+<!ELEMENT Enviado_Por (#PCDATA)>
+
+<!ELEMENT Bultos (#PCDATA)>
+
+<!ELEMENT Puntos (#PCDATA)>
+
+<!-- Elementos de firma o confirmación pueden ser vacíos si solo se usa la firma manuscrita -->
+
+<!ELEMENT Confirma_Cliente EMPTY>

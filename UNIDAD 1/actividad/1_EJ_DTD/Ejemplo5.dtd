@@ -1,0 +1,37 @@
+<!-- Definición de Tipo de Documento (DTD) para la conjugación verbal. -->
+
+<!-- El elemento raíz es <Conjugacion> -->
+
+<!ELEMENT Conjugacion (Verbo, Conjugacion_Tipo, Tiempos_Simples)>
+
+<!-- <Verbo> y <Conjugacion_Tipo> contienen solo texto. -->
+
+<!ELEMENT Verbo (#PCDATA)>
+
+<!ELEMENT Conjugacion_Tipo (#PCDATA)>
+
+<!-- <Tiempos_Simples> contiene uno o más tiempos verbales simples. -->
+
+<!ELEMENT Tiempos_Simples (Tiempo+)>
+
+<!-- REQUISITO: Un tiempo verbal contiene el nombre, seguido de la secuencia exacta de las 6 personas. -->
+
+<!ELEMENT Tiempo (Tiempo_Verbal, Singular1, Singular2, Singular3, Plural1, Plural2, Plural3)>
+
+<!-- <Tiempo_Verbal> contiene el nombre del tiempo (ej. Presente) -->
+
+<!ELEMENT Tiempo_Verbal (#PCDATA)>
+
+<!-- Los elementos de persona gramatical contienen la conjugación (texto). -->
+
+<!ELEMENT Singular1 (#PCDATA)>
+
+<!ELEMENT Singular2 (#PCDATA)>
+
+<!ELEMENT Singular3 (#PCDATA)>
+
+<!ELEMENT Plural1 (#PCDATA)>
+
+<!ELEMENT Plural2 (#PCDATA)>
+
+<!ELEMENT Plural3 (#PCDATA)>

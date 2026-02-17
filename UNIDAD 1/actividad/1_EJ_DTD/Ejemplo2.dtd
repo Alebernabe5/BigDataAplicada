@@ -1,0 +1,41 @@
+<!-- Definición de Tipo de Documento (DTD) para la ficha de un Autor. -->
+
+<!-- El elemento raíz es <Autor> -->
+
+<!ELEMENT Autor (Nombre, Indice)>
+
+<!-- <Nombre> contiene solo texto -->
+
+<!ELEMENT Nombre (#PCDATA)>
+
+<!-- <Indice> contiene uno o más <Elemento>s -->
+
+<!ELEMENT Indice (Elemento+)>
+
+<!-- <Elemento> puede contener un <Titulo> seguido de CERO o más Subelementos, o CERO o más <Obra>s -->
+
+<!ELEMENT Elemento (Titulo, (Subelemento | Obra)*)>
+
+<!-- <Titulo> y <Subelemento> contienen solo texto. -->
+
+<!ELEMENT Titulo (#PCDATA)>
+
+<!ELEMENT Subelemento (#PCDATA)>
+
+<!-- Definición para las obras (que pueden anidarse en Subelemento) -->
+
+<!ELEMENT Obra (Titulo, Ciudad, (Editorial | Editoriales)?, Año, Notas?)>
+
+<!-- <Ciudad>, <Año>, <Notas> contienen solo texto -->
+
+<!ELEMENT Ciudad (#PCDATA)>
+
+<!ELEMENT Año (#PCDATA)>
+
+<!ELEMENT Notas (#PCDATA)>
+
+<!-- Las editoriales pueden ser simples o múltiples -->
+
+<!ELEMENT Editorial (#PCDATA)>
+
+<!ELEMENT Editoriales (Editorial+)>

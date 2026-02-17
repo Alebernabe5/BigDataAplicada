@@ -1,0 +1,19 @@
+(: i. Extraer los números de factura de aquellas que tengan un importe total superior a 500 €  :)
+
+/Facturas/FacturaSimplificada[Totales/TotalFactura > 500]/DatosFactura/Numero
+
+(: ii. Extraer los productos (descripciones) de las facturas donde se adquirieron más de cinco unidades  :)
+//FacturaSimplificada/Conceptos/Concepto[Unidades > 5]/Descripcion
+
+(: iii. Mostrar los códigos (números) de la primera y la última factura registrada en el archivo XML  :)
+  
+(//FacturaSimplificada/DatosFactura/Numero)[1]
+(//FacturaSimplificada/DatosFactura/Numero)[last()]
+
+(: iv. Extraer los códigos y los importes de todas las facturas realizadas el 1 de enero de 2021  :)
+//FacturaSimplificada[DatosFactura/Fecha='2021-01-01']/DatosFactura/Numero
+//FacturaSimplificada[DatosFactura/Fecha='2021-01-01']/Totales/TotalFactura
+
+(: v. Mostrar los códigos de todas las facturas que incluyan más de tres productos :)
+//FacturaSimplificada[count(Conceptos/Concepto) > 3]/DatosFactura/Numero
+

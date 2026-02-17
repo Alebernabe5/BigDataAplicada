@@ -1,0 +1,60 @@
+{
+  "Albaran": {
+    "Cabecera": {
+      "Numero_Albaran": "ALB-2025-0047",
+      "Fecha": "2025-11-05",
+      "NIF_Emisor": "A12345678",
+      "Emisor": "Suministros Técnicos del Norte S.L."
+    },
+    
+    "Cliente": {
+      "Nombre_Cliente": "Logística Global y Servicios S.A.",
+      "Domicilio": "Calle de la Innovación, 15",
+      "Poblacion": "Madrid",
+      "Pago": "30 Días",
+      "NIF_Cliente": "B87654321"
+    },
+    
+    "Lineas_Detalle": [
+      {
+        "Cantidad": 50,
+        "Codigo": "TUB-P01",
+        "Referencia_Articulo": "Tubo de PVC rígido, diámetro 50mm",
+        "Precio_Unitario": 2.50,
+        "Euros_Total": 125.00
+      },
+      {
+        "Cantidad": 15,
+        "Codigo": "HER-MAN03",
+        "Referencia_Articulo": "Alicates de corte diagonal, acero templado",
+        "Precio_Unitario": 15.99,
+        "Euros_Total": 239.85
+      },
+      {
+        "Cantidad": 2,
+        "Codigo": "SEG-007",
+        "Referencia_Articulo": "Casco de seguridad industrial EN 397",
+        "Precio_Unitario": 35.00,
+        "Euros_Total": 70.00
+      },
+      {
+        "Cantidad": 1,
+        "Codigo": "DESP-ENV",
+        "Referencia_Articulo": "Gastos de Desplazamiento y Envío Urgente",
+        "Precio_Unitario": 40.00,
+        "Euros_Total": 40.00
+      }
+    ],
+    
+    "Pie": {
+      "Observaciones": "Entrega parcial. El código TUB-P02 (100 unidades) queda pendiente para la próxima semana.",
+      "Seccion_Entrega": {
+        "Agente": "María López (Trans. Rápido)",
+        "Enviado_Por": "Transportes Rápidos S.A.",
+        "Bultos": 3,
+        "Puntos_Entrega": "Almacén Principal",
+        "Confirma_Cliente": "Aceptado y conforme (Firma digital)"
+      }
+    }
+  }
+}

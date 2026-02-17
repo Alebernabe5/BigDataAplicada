@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Clasificacion_Grupos Temporada="2019-2020">
+    
+    <Grupo Letra="A">
+        <Equipo Nombre="Paris Saint-Germain" PJ="6" V="5" E="1" D="0" GF="17" GC="2" DG="15" Pts="16" Clasificacion="Octavos"/>
+        <Equipo Nombre="Real Madrid" PJ="6" V="3" E="2" D="1" GF="14" GC="8" DG="6" Pts="11" Clasificacion="Octavos"/>
+        <Equipo Nombre="Club Brujas" PJ="6" V="0" E="3" D="3" GF="4" GC="12" DG="-8" Pts="3" Clasificacion="UEL"/>
+        <Equipo Nombre="Galatasaray" PJ="6" V="0" E="2" D="4" GF="1" GC="14" DG="-13" Pts="2" Clasificacion="Eliminado"/>
+    </Grupo>
+
+    <Grupo Letra="B">
+        <Equipo Nombre="Bayern Múnich" PJ="6" V="6" E="0" D="0" GF="24" GC="5" DG="19" Pts="18" Clasificacion="Octavos"/>
+        <Equipo Nombre="Tottenham Hotspur" PJ="6" V="3" E="1" D="2" GF="18" GC="14" DG="4" Pts="10" Clasificacion="Octavos"/>
+        <Equipo Nombre="Olympiacos" PJ="6" V="1" E="1" D="4" GF="8" GC="14" DG="-6" Pts="4" Clasificacion="UEL"/>
+        <Equipo Nombre="Estrella Roja" PJ="6" V="1" E="0" D="5" GF="3" GC="20" DG="-17" Pts="3" Clasificacion="Eliminado"/>
+    </Grupo>
+
+    <Grupo Letra="C">
+        <Equipo Nombre="Manchester City" PJ="6" V="4" E="2" D="0" GF="16" GC="4" DG="12" Pts="14" Clasificacion="Octavos"/>
+        <Equipo Nombre="Atalanta" PJ="6" V="2" E="1" D="3" GF="8" GC="12" DG="-4" Pts="7" Clasificacion="Octavos"/>
+        <Equipo Nombre="Shakhtar Donetsk" PJ="6" V="1" E="3" D="2" GF="8" GC="13" DG="-5" Pts="6" Clasificacion="UEL"/>
+        <Equipo Nombre="Dinamo Zagreb" PJ="6" V="1" E="2" D="3" GF="10" GC="13" DG="-3" Pts="5" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+    <Grupo Letra="D">
+        <Equipo Nombre="Juventus" PJ="6" V="5" E="1" D="0" GF="12" GC="4" DG="8" Pts="16" Clasificacion="Octavos"/>
+        <Equipo Nombre="Atlético de Madrid" PJ="6" V="3" E="1" D="2" GF="8" GC="5" DG="3" Pts="10" Clasificacion="Octavos"/>
+        <Equipo Nombre="Bayer Leverkusen" PJ="6" V="2" E="0" D="4" GF="5" GC="9" DG="-4" Pts="6" Clasificacion="UEL"/>
+        <Equipo Nombre="Lokomotiv Moscú" PJ="6" V="1" E="0" D="5" GF="4" GC="11" DG="-7" Pts="3" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+    <Grupo Letra="E">
+        <Equipo Nombre="Liverpool" PJ="6" V="4" E="1" D="1" GF="13" GC="8" DG="5" Pts="13" Clasificacion="Octavos"/>
+        <Equipo Nombre="Napoli" PJ="6" V="3" E="3" D="0" GF="11" GC="4" DG="7" Pts="12" Clasificacion="Octavos"/>
+        <Equipo Nombre="Red Bull Salzburgo" PJ="6" V="2" E="1" D="3" GF="16" GC="13" DG="3" Pts="7" Clasificacion="UEL"/>
+        <Equipo Nombre="Genk" PJ="6" V="0" E="1" D="5" GF="5" GC="20" DG="-15" Pts="1" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+    <Grupo Letra="F">
+        <Equipo Nombre="Barcelona" PJ="6" V="4" E="2" D="0" GF="9" GC="4" DG="5" Pts="14" Clasificacion="Octavos"/>
+        <Equipo Nombre="Borussia Dortmund" PJ="6" V="3" E="1" D="2" GF="8" GC="8" DG="0" Pts="10" Clasificacion="Octavos"/>
+        <Equipo Nombre="Inter de Milán" PJ="6" V="2" E="1" D="3" GF="10" GC="9" DG="1" Pts="7" Clasificacion="UEL"/>
+        <Equipo Nombre="Slavia Praga" PJ="6" V="0" E="2" D="4" GF="4" GC="10" DG="-6" Pts="2" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+    <Grupo Letra="G">
+        <Equipo Nombre="RB Leipzig" PJ="6" V="3" E="2" D="1" GF="10" GC="8" DG="2" Pts="11" Clasificacion="Octavos"/>
+        <Equipo Nombre="Lyon" PJ="6" V="2" E="2" D="2" GF="9" GC="8" DG="1" Pts="8" Clasificacion="Octavos"/>
+        <Equipo Nombre="Benfica" PJ="6" V="2" E="1" D="3" GF="10" GC="11" DG="-1" Pts="7" Clasificacion="UEL"/>
+        <Equipo Nombre="Zenit San Petersburgo" PJ="6" V="2" E="1" D="3" GF="7" GC="9" DG="-2" Pts="7" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+    <Grupo Letra="H">
+        <Equipo Nombre="Valencia" PJ="6" V="3" E="2" D="1" GF="9" GC="7" DG="2" Pts="11" Clasificacion="Octavos"/>
+        <Equipo Nombre="Chelsea" PJ="6" V="3" E="2" D="1" GF="11" GC="9" DG="2" Pts="11" Clasificacion="Octavos"/>
+        <Equipo Nombre="Ajax" PJ="6" V="3" E="1" D="2" GF="12" GC="6" DG="6" Pts="10" Clasificacion="UEL"/>
+        <Equipo Nombre="Lille" PJ="6" V="0" E="1" D="5" GF="4" GC="14" DG="-10" Pts="1" Clasificacion="Eliminado"/>
+    </Grupo>
+    
+</Clasificacion_Grupos>

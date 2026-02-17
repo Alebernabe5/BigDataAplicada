@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Declaración Externa: Llama al archivo DTD que define toda la estructura.
+    Se asume que 'autor.dtd' está en el mismo directorio.
+-->
+<!DOCTYPE Autor SYSTEM "autor.dtd" [
+    <!-- 
+        Declaración Interna: Se usa para definir entidades específicas o 
+        para anular o añadir declaraciones que solo aplican a este documento.
+        Aquí se define una entidad de texto.
+    -->
+    <!ENTITY fecha_nacimiento "1891">
+]>
+<Autor>
+    <Nombre>Pedro Salinas (nacido en &fecha_nacimiento;)</Nombre>
+    <Indice>
+        <!-- Elemento con subelementos de biografía -->
+        <Elemento>
+            <Titulo>Biografía</Titulo>
+            <Subelemento>Primeros años</Subelemento>
+            <Subelemento>Matrimonio y cátedra</Subelemento>
+            <Subelemento>Guerra civil y exilio</Subelemento>
+        </Elemento>
+
+        <!-- Elemento con subelementos de la obra de poesía -->
+        <Elemento>
+            <Titulo>Obra</Titulo>
+            <Subelemento>
+                <Titulo>Poesía</Titulo>
+                <!-- Obra simple -->
+                <Obra>
+                    <Titulo>Presagio</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Índice</Editorial>
+                    <Año>1923</Año>
+                </Obra>
+                <!-- Obra con editoriales múltiples -->
+                <Obra>
+                    <Titulo>Razón de amor</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editoriales>
+                        <Editorial>Ediciones del Árbol</Editorial>
+                        <Editorial>Cruz y Raya</Editorial>
+                    </Editoriales>
+                    <Año>1936</Año>
+                </Obra>
+                <!-- Obra con notas -->
+                <Obra>
+                    <Titulo>Poesías completas</Titulo>
+                    <Ciudad>Madrid</Ciudad>
+                    <Editorial>Aguilar</Editorial>
+                    <Año>1955</Año>
+                    <Notas>Incluye el libro inédito Confianza</Notas>
+                </Obra>
+            </Subelemento>
+        </Elemento>
+
+        <!-- Elemento sin subelementos anidados, solo el título -->
+        <Elemento>
+            <Titulo>Referencias</Titulo>
+        </Elemento>
+    </Indice>
+</Autor>

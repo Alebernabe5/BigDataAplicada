@@ -1,0 +1,31 @@
+9. Detecta los errores sintácticos en el siguiente documento XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia mundial>
+<pais>
+<pais>España</pais>
+<continente>Europa</continente>
+<capital></capital nombre="Madrid">
+</pais>
+</geografia mundial>
+
+---------RESPUESTA--------------
+
+1. Error en el Nombre de la Etiqueta Raíz (Espacio en Blanco)
+Línea(s) afectada(s): <geografia mundial> y </geografia mundial>
+
+Problema: Los nombres de las etiquetas XML no pueden contener espacios en blanco. Un espacio en blanco dentro del nombre de un elemento (como "geografia mundial") es una violación de las reglas de sintaxis de XML.
+
+
+
+2. Error en la Etiqueta de Cierre (Atributos Prohibidos)
+Línea afectada: </capital nombre="Madrid">
+
+Problema: Las etiquetas de cierre XML (las que comienzan con </) no pueden contener atributos. Los atributos, como nombre="Madrid", solo se permiten en la etiqueta de apertura.
+
+
+
+3. Error en la Estructura de la Etiqueta <capital> (Cierre Mal Formado)
+Línea afectada: <capital></capital nombre="Madrid">
+
+Problema: Esta línea es una mezcla de una etiqueta de apertura y una etiqueta de cierre mal formadas. En la sintaxis de XML, una etiqueta debe cerrarse correctamente.
+

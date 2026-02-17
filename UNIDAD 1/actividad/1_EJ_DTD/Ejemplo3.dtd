@@ -1,0 +1,23 @@
+<!-- Definición de Tipo de Documento (DTD) para los estrenos de películas de Disney. -->
+
+<!-- El elemento raíz es <Estrenos_Disney> y contiene uno o más <Pelicula>s. -->
+
+<!ELEMENT Estrenos_Disney (Pelicula+)>
+
+<!-- <Pelicula> contiene todos los metadatos como elementos hijos y en el orden especificado. -->
+
+<!ELEMENT Pelicula (Titulo, Fecha, Directores, Escritores, Productores, Compositores)>
+
+<!-- Los siguientes elementos contienen solo datos de texto (#PCDATA). -->
+
+<!ELEMENT Titulo (#PCDATA)>
+
+<!ELEMENT Fecha (#PCDATA)>
+
+<!ELEMENT Directores (#PCDATA)>
+
+<!ELEMENT Escritores (#PCDATA)>
+
+<!ELEMENT Productores (#PCDATA)>
+
+<!ELEMENT Compositores (#PCDATA)>

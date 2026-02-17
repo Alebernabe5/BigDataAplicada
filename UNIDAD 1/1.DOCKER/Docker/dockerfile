@@ -1,0 +1,21 @@
+# Usar una plantilla de Debian.
+
+FROM debian:stable-slim
+
+# Instalar Apache2. (apt update && apt install apache2 -y)
+
+RUN apt-get update && apt install apache2 -y
+
+# Establecer el directorio por defecto en /var/www/html
+
+COPY index.html /var/www/html
+
+# Mover una página web que os descarguéis de Internet a dicho directorio.
+
+# El Puerto 80 debe de estar abierto.
+
+EXPOSE 80
+
+# Añadir al final del fichero la siguiente instrucción para que apache2 funcione en segundo plano:
+CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
+

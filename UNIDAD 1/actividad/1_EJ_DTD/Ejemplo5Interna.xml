@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Declaración Externa: Carga el archivo DTD
+-->
+<!DOCTYPE Conjugacion SYSTEM "conjugacion.dtd" [
+    <!-- 
+        Declaración Interna: Definimos una entidad para la clase de conjugación
+    -->
+    <!ENTITY clase_conj "Primera (verbos terminados en -ar)">
+]>
+<Conjugacion>
+    <Verbo>Cantar</Verbo>
+    <Conjugacion_Tipo>&clase_conj;</Conjugacion_Tipo>
+    
+    <Tiempos_Simples>
+        
+        <Tiempo>
+            <Tiempo_Verbal>Presente</Tiempo_Verbal>
+            <!-- 3 Personas Singular (Obligatorias y en orden) -->
+            <Singular1>Yo canto</Singular1>
+            <Singular2>Tú cantas</Singular2>
+            <Singular3>Él/Ella canta</Singular3>
+            <!-- 3 Personas Plural (Obligatorias y en orden) -->
+            <Plural1>Nosotros/Nosotras cantamos</Plural1>
+            <Plural2>Vosotros/Vosotras cantáis</Plural2>
+            <Plural3>Ellos/Ellas cantan</Plural3>
+        </Tiempo>
+
+        <Tiempo>
+            <Tiempo_Verbal>Pretérito Imperfecto</Tiempo_Verbal>
+            <!-- 3 Personas Singular (Obligatorias y en orden) -->
+            <Singular1>Yo cantaba</Singular1>
+            <Singular2>Tú cantabas</Singular2>
+            <Singular3>Él/Ella cantaba</Singular3>
+            <!-- 3 Personas Plural (Obligatorias y en orden) -->
+            <Plural1>Nosotros/Nosotras cantábamos</Plural1>
+            <Plural2>Vosotros/Vosotras cantabais</Plural2>
+            <Plural3>Ellos/Ellas cantaban</Plural3>
+        </Tiempo>
+        
+    </Tiempos_Simples>
+    
+</Conjugacion>

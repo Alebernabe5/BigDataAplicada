@@ -1,0 +1,85 @@
+<!-- Definición de Tipo de Documento (DTD) para un Diploma de Certificación. -->
+
+<!-- El elemento raíz es <Diploma> -->
+
+<!ELEMENT Diploma (Emisor, Beneficiario, Contenido, Expedicion, Firmantes)>
+
+<!-- ========================= -->
+
+<!-- 1. BLOQUE EMISOR -->
+
+<!-- ========================= -->
+
+<!-- El emisor incluye el nombre de la institución y cualquier organismo colaborador (opcional). -->
+
+<!ELEMENT Emisor (Nombre_Institucion, Certificacion, Asociacion_Colaboradora?)>
+
+<!ELEMENT Nombre_Institucion (#PCDATA)>
+
+<!ELEMENT Certificacion (#PCDATA)>
+
+<!ELEMENT Asociacion_Colaboradora (#PCDATA)>
+
+<!-- ========================= -->
+
+<!-- 2. BLOQUE BENEFICIARIO -->
+
+<!-- ========================= -->
+
+<!-- Información sobre el estudiante y el logro. -->
+
+<!ELEMENT Beneficiario (Tipo_Participacion, Nombre_Completo, DNI?)>
+
+<!ELEMENT Tipo_Participacion (#PCDATA)>
+
+<!ELEMENT Nombre_Completo (#PCDATA)>
+
+<!ELEMENT DNI (#PCDATA)>
+
+<!-- ========================= -->
+
+<!-- 3. BLOQUE CONTENIDO -->
+
+<!-- ========================= -->
+
+<!-- Título del curso o certificación obtenida. -->
+
+<!ELEMENT Contenido (Titulo_Obtenido)>
+
+<!ELEMENT Titulo_Obtenido (#PCDATA)>
+
+<!-- ========================= -->
+
+<!-- 4. BLOQUE EXPEDICIÓN -->
+
+<!-- ========================= -->
+
+<!ELEMENT Expedicion (Lugar, Fecha)>
+
+<!ELEMENT Lugar (#PCDATA)>
+
+<!ELEMENT Fecha (#PCDATA)>
+
+<!-- ========================= -->
+
+<!-- 5. BLOQUE FIRMANTES -->
+
+<!-- ========================= -->
+
+<!-- Los firmantes son los cargos que avalan el diploma.
+Puede incluir otros roles (ej., "Secretario") si fueran necesarios. -->
+
+<!ELEMENT Firmantes (Firma_Alumno, Firma_Profesor, Firma_Director, Sello_Central?)>
+
+<!-- Los elementos de firma son solo marcadores, por lo que pueden ser elementos vacíos,
+o contener el nombre del firmante si se procesa automáticamente. Los dejamos como texto. -->
+
+<!ELEMENT Firma_Alumno (#PCDATA)>
+
+<!ELEMENT Firma_Profesor (#PCDATA)>
+
+<!ELEMENT Firma_Director (#PCDATA)>
+
+<!-- El sello es un marcador, lo dejamos como texto PCDATA opcional -->
+
+<!ELEMENT Sello_Central (#PCDATA)>

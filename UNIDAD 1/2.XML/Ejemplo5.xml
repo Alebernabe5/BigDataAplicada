@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- Escribe un documento XML bien formado para representar los tiempos verbales simples del modo indicativo para el verbo cantar, de la primera conjugación. -->
+
+<Conjugacion>
+   <Verbo> Cantar </Verbo>
+   <Conjugacion> Primera </Conjugacion>
+   <Tiempos_Simples>
+   
+      <Tiempo> Presente 
+         <Singular1> Yo canto </Singular1> 
+         <Singular2> Tu cantas </Singular2>
+         <Singular3> El canta </Singular3>
+         <Plural1> Nosotros cantamos </Plural1>
+         <Plural2> Vosotros cantais </Plural2>
+         <Plural3> Ellos cantan </Plural3>
+      </Tiempo>
+
+       <Tiempo> Pretérito Imperfecto 
+         <Singular1> Yo cantaba </Singular1> 
+         <Singular2> Tu cantabas </Singular2>
+         <Singular3> El cantaba </Singular3>
+         <Plural1> Nosotros cantábamos </Plural1>
+         <Plural2> Vosotros cantabais </Plural2>
+         <Plural3> Ellos cantaban </Plural3>
+      </Tiempo>
+
+       <Tiempo> Pretérito Perfecto Simple 
+         <Singular1> Yo canté </Singular1> 
+         <Singular2> Tu cantaste </Singular2>
+         <Singular3> El cantó </Singular3>
+         <Plural1> Nosotros cantamos </Plural1>
+         <Plural2> Vosotros cantasteis </Plural2>
+         <Plural3> Ellos cantaron </Plural3>
+      </Tiempo>
+
+       <Tiempo> Futuro Simple 
+         <Singular1> Yo cantaré </Singular1> 
+         <Singular2> Tu cantarás </Singular2>
+         <Singular3> El cantará </Singular3>
+         <Plural1> Nosotros cantaremos </Plural1>
+         <Plural2> Vosotros cantaréis </Plural2>
+         <Plural3> Ellos cantarán </Plural3>
+      </Tiempo>      
+
+       <Tiempo> Condicional Simple
+         <Singular1> Yo cantaría </Singular1> 
+         <Singular2> Tu cantarías </Singular2>
+         <Singular3> El cantaría </Singular3>
+         <Plural1> Nosotros cantaríamos </Plural1>
+         <Plural2> Vosotros cantaríais </Plural2>
+         <Plural3> Ellos cantarían </Plural3>
+      </Tiempo>      
+
+   </Tiempos_Simples>
+
+</Conjugacion>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Conjugacion>
+    <Verbo>Cantar</Verbo>
+    <Conjugacion>Primera</Conjugacion>
+
+    <Tiempos_Simples>
+
+        <Tiempo Nombre="Presente">
+            <Singular1>Yo canto</Singular1>
+            <Singular2>Tú cantas</Singular2>
+            <Singular3>Él canta</Singular3>
+            <Plural1>Nosotros cantamos</Plural1>
+            <Plural2>Vosotros cantáis</Plural2>
+            <Plural3>Ellos cantan</Plural3>
+        </Tiempo>
+
+        <Tiempo Nombre="Pretérito Imperfecto">
+            <Singular1>Yo cantaba</Singular1>
+            <Singular2>Tú cantabas</Singular2>
+            <Singular3>Él cantaba</Singular3>
+            <Plural1>Nosotros cantábamos</Plural1>
+            <Plural2>Vosotros cantabais</Plural2>
+            <Plural3>Ellos cantaban</Plural3>
+        </Tiempo>
+
+        <Tiempo Nombre="Pretérito Perfecto Simple">
+            <Singular1>Yo canté</Singular1>
+            <Singular2>Tú cantaste</Singular2>
+            <Singular3>Él cantó</Singular3>
+            <Plural1>Nosotros cantamos</Plural1>
+            <Plural2>Vosotros cantasteis</Plural2>
+            <Plural3>Ellos cantaron</Plural3>
+        </Tiempo>
+
+        <Tiempo Nombre="Futuro Simple">
+            <Singular1>Yo cantaré</Singular1>
+            <Singular2>Tú cantarás</Singular2>
+            <Singular3>Él cantará</Singular3>
+            <Plural1>Nosotros cantaremos</Plural1>
+            <Plural2>Vosotros cantaréis</Plural2>
+            <Plural3>Ellos cantarán</Plural3>
+        </Tiempo>
+
+        <Tiempo Nombre="Condicional Simple">
+            <Singular1>Yo cantaría</Singular1>
+            <Singular2>Tú cantarías</Singular2>
+            <Singular3>Él cantaría</Singular3>
+            <Plural1>Nosotros cantaríamos</Plural1>
+            <Plural2>Vosotros cantaríais</Plural2>
+            <Plural3>Ellos cantarían</Plural3>
+        </Tiempo>
+
+    </Tiempos_Simples>
+
+</Conjugacion>
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+{
+  "Conjugacion": {
+    "Verbo": "Cantar",
+    "Clase": "Primera",
+    "Modos": [
+      {
+        "Nombre": "Indicativo",
+        "Tiempos": [
+          {
+            "Tipo": "Simple",
+            "Nombre": "Presente",
+            "Conjugaciones": [
+              "Yo canto",
+              "Tú cantas",
+              "Él/Ella/Usted canta",
+              "Nosotros/as cantamos",
+              "Vosotros/as cantáis",
+              "Ellos/as/Ustedes cantan"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Pretérito Imperfecto",
+            "Conjugaciones": [
+              "Yo cantaba",
+              "Tú cantabas",
+              "Él/Ella/Usted cantaba",
+              "Nosotros/as cantábamos",
+              "Vosotros/as cantabais",
+              "Ellos/as/Ustedes cantaban"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Pretérito Perfecto Simple",
+            "Conjugaciones": [
+              "Yo canté",
+              "Tú cantaste",
+              "Él/Ella/Usted cantó",
+              "Nosotros/as cantamos",
+              "Vosotros/as cantasteis",
+              "Ellos/as/Ustedes cantaron"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Futuro Simple",
+            "Conjugaciones": [
+              "Yo cantaré",
+              "Tú cantarás",
+              "Él/Ella/Usted cantará",
+              "Nosotros/as cantaremos",
+              "Vosotros/as cantaréis",
+              "Ellos/as/Ustedes cantarán"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Condicional Simple",
+            "Conjugaciones": [
+              "Yo cantaría",
+              "Tú cantarías",
+              "Él/Ella/Usted cantaría",
+              "Nosotros/as cantaríamos",
+              "Vosotros/as cantaríais",
+              "Ellos/as/Ustedes cantarían"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Perfecto Compuesto",
+            "Conjugaciones": [
+              "Yo he cantado",
+              "Tú has cantado",
+              "Él/Ella/Usted ha cantado",
+              "Nosotros/as hemos cantado",
+              "Vosotros/as habéis cantado",
+              "Ellos/as/Ustedes han cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Pluscuamperfecto",
+            "Conjugaciones": [
+              "Yo había cantado",
+              "Tú habías cantado",
+              "Él/Ella/Usted había cantado",
+              "Nosotros/as habíamos cantado",
+              "Vosotros/as habíais cantado",
+              "Ellos/as/Ustedes habían cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Anterior",
+            "Conjugaciones": [
+              "Yo hube cantado",
+              "Tú hubiste cantado",
+              "Él/Ella/Usted hubo cantado",
+              "Nosotros/as hubimos cantado",
+              "Vosotros/as hubisteis cantado",
+              "Ellos/as/Ustedes hubieron cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Futuro Compuesto",
+            "Conjugaciones": [
+              "Yo habré cantado",
+              "Tú habrás cantado",
+              "Él/Ella/Usted habrá cantado",
+              "Nosotros/as habremos cantado",
+              "Vosotros/as habréis cantado",
+              "Ellos/as/Ustedes habrán cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Condicional Compuesto",
+            "Conjugaciones": [
+              "Yo habría cantado",
+              "Tú habrías cantado",
+              "Él/Ella/Usted habría cantado",
+              "Nosotros/as habríamos cantado",
+              "Vosotros/as habríais cantado",
+              "Ellos/as/Ustedes habrían cantado"
+            ]
+          }
+        ]
+      },
+      {
+        "Nombre": "Subjuntivo",
+        "Tiempos": [
+          {
+            "Tipo": "Simple",
+            "Nombre": "Presente",
+            "Conjugaciones": [
+              "Yo cante",
+              "Tú cantes",
+              "Él/Ella/Usted cante",
+              "Nosotros/as cantemos",
+              "Vosotros/as cantéis",
+              "Ellos/as/Ustedes canten"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Pretérito Imperfecto (-ra)",
+            "Conjugaciones": [
+              "Yo cantara",
+              "Tú cantaras",
+              "Él/Ella/Usted cantara",
+              "Nosotros/as cantáramos",
+              "Vosotros/as cantarais",
+              "Ellos/as/Ustedes cantaran"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Pretérito Imperfecto (-se)",
+            "Conjugaciones": [
+              "Yo cantase",
+              "Tú cantases",
+              "Él/Ella/Usted cantase",
+              "Nosotros/as cantásemos",
+              "Vosotros/as cantaseis",
+              "Ellos/as/Ustedes cantasen"
+            ]
+          },
+          {
+            "Tipo": "Simple",
+            "Nombre": "Futuro Simple",
+            "Conjugaciones": [
+              "Yo cantare",
+              "Tú cantares",
+              "Él/Ella/Usted cantare",
+              "Nosotros/as cantáremos",
+              "Vosotros/as cantareis",
+              "Ellos/as/Ustedes cantaren"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Perfecto",
+            "Conjugaciones": [
+              "Yo haya cantado",
+              "Tú hayas cantado",
+              "Él/Ella/Usted haya cantado",
+              "Nosotros/as hayamos cantado",
+              "Vosotros/as hayáis cantado",
+              "Ellos/as/Ustedes hayan cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Pluscuamperfecto (-ra)",
+            "Conjugaciones": [
+              "Yo hubiera cantado",
+              "Tú hubieras cantado",
+              "Él/Ella/Usted hubiera cantado",
+              "Nosotros/as hubiéramos cantado",
+              "Vosotros/as hubierais cantado",
+              "Ellos/as/Ustedes hubieran cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Pretérito Pluscuamperfecto (-se)",
+            "Conjugaciones": [
+              "Yo hubiese cantado",
+              "Tú hubieses cantado",
+              "Él/Ella/Usted hubiese cantado",
+              "Nosotros/as hubiésemos cantado",
+              "Vosotros/as hubieseis cantado",
+              "Ellos/as/Ustedes hubiesen cantado"
+            ]
+          },
+          {
+            "Tipo": "Compuesto",
+            "Nombre": "Futuro Compuesto",
+            "Conjugaciones": [
+              "Yo hubiere cantado",
+              "Tú hubieres cantado",
+              "Él/Ella/Usted hubiere cantado",
+              "Nosotros/as hubiéremos cantado",
+              "Vosotros/as hubiereis cantado",
+              "Ellos/as/Ustedes hubieren cantado"
+            ]
+          }
+        ]
+      },
+      {
+        "Nombre": "Imperativo",
+        "Tiempos": [
+          {
+            "Tipo": "Simple",
+            "Nombre": "Presente",
+            "Conjugaciones": [
+              "canta (tú)",
+              "cante (usted)",
+              "cantemos (nosotros/as)",
+              "cantad (vosotros/as)",
+              "canten (ustedes)"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

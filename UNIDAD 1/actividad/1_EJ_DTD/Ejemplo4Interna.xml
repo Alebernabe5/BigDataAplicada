@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Declaración Externa: Carga el archivo DTD
+-->
+<!DOCTYPE Clasificacion_Grupos SYSTEM "champions_2019.dtd" [
+    <!-- 
+        Declaración Interna: Definimos una entidad para la temporada
+    -->
+    <!ENTITY temp "2019-2020">
+]>
+<Clasificacion_Grupos>
+    
+    <Grupo Letra="A">
+        <Temporada>&temp;</Temporada>
+        <ID_Grupo>A</ID_Grupo>
+        
+        <!-- EQUIPO 1 (MANDATORIO) -->
+        <Equipo Nombre="Paris Saint-Germain">
+            <PJ>6</PJ>
+            <V>5</V>
+            <E>1</E>
+            <D>0</D>
+            <GF>17</GF>
+            <GC>2</GC>
+            <DG>15</DG>
+            <Pts>16</Pts>
+        </Equipo>
+
+        <!-- EQUIPO 2 (MANDATORIO) -->
+        <Equipo Nombre="Real Madrid">
+            <PJ>6</PJ>
+            <V>3</V>
+            <E>2</E>
+            <D>1</D>
+            <GF>14</GF>
+            <GC>8</GC>
+            <DG>6</DG>
+            <Pts>11</Pts>
+        </Equipo>
+
+        <!-- EQUIPO 3 (MANDATORIO) -->
+        <Equipo Nombre="Club Brujas">
+            <PJ>6</PJ>
+            <V>0</V>
+            <E>3</E>
+            <D>3</D>
+            <GF>4</GF>
+            <GC>12</GC>
+            <DG>-8</DG>
+            <Pts>3</Pts>
+        </Equipo>
+        
+        <!-- EQUIPO 4 (MANDATORIO) -->
+        <Equipo Nombre="Galatasaray">
+            <PJ>6</PJ>
+            <V>0</V>
+            <E>2</E>
+            <D>4</D>
+            <GF>1</GF>
+            <GC>14</GC>
+            <DG>-13</DG>
+            <Pts>2</Pts>
+        </Equipo>
+        
+    </Grupo>
+    
+    <!-- Aquí se agregarían más elementos <Grupo> para los Grupos B, C, D, etc. -->
+    
+</Clasificacion_Grupos>

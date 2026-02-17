@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- ELEMENTO RAÍZ -->
+  <xs:element name="Albaran">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- ENCABEZADO -->
+        <xs:element name="Encabezado">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Numero" type="xs:string"/>
+              <xs:element name="Fecha" type="xs:date"/>
+
+              <!-- CLIENTE -->
+              <xs:element name="Cliente">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Nombre" type="xs:string"/>
+                    <xs:element name="NIF" type="xs:string"/>
+                    <xs:element name="Direccion" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Poblacion" type="xs:string" minOccurs="0"/>
+                    <xs:element name="Provincia" type="xs:string" minOccurs="0"/>
+                    <xs:element name="CP" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="FormaPago" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- LÍNEAS DE ARTÍCULOS -->
+        <xs:element name="Lineas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Linea" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Cantidad" type="xs:decimal"/>
+                    <xs:element name="Codigo" type="xs:string"/>
+                    <xs:element name="ReferenciaArticulo" type="xs:string"/>
+                    <xs:element name="Precio" type="xs:decimal"/>
+                    <xs:element name="Euros" type="xs:decimal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- OBSERVACIONES -->
+        <xs:element name="Observaciones" type="xs:string" minOccurs="0"/>
+
+        <!-- FIRMAS -->
+        <xs:element name="Firmas" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Agente" type="xs:string" minOccurs="0"/>
+              <xs:element name="RecibidoPorCliente" type="xs:string" minOccurs="0"/>
+              <xs:element name="Conductor" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,45 @@
+<!-- Definición de Tipo de Documento (DTD) para la clasificación de la fase de grupos de la UCL 2019-2020. -->
+
+<!-- El elemento raíz es <Clasificacion_Grupos> -->
+
+<!ELEMENT Clasificacion_Grupos (Grupo+)>
+
+<!-- La clasificación de un grupo contiene la Temporada, el ID del Grupo y EXCATAMENTE CUATRO equipos. -->
+
+<!ELEMENT Grupo (Temporada, ID_Grupo, Equipo, Equipo, Equipo, Equipo)>
+
+<!ATTLIST Grupo
+Letra CDATA #REQUIRED
+>
+
+<!-- Los datos de <Temporada> y <ID_Grupo> contienen solo texto -->
+
+<!ELEMENT Temporada (#PCDATA)>
+
+<!ELEMENT ID_Grupo (#PCDATA)>
+
+<!-- <Equipo> contiene todos los metadatos como elementos hijos -->
+
+<!ELEMENT Equipo (PJ, V, E, D, GF, GC, DG, Pts)>
+
+<!ATTLIST Equipo
+Nombre CDATA #REQUIRED
+>
+
+<!-- Los elementos estadísticos contienen solo datos de números (texto) -->
+
+<!ELEMENT PJ (#PCDATA)>
+
+<!ELEMENT V (#PCDATA)>
+
+<!ELEMENT E (#PCDATA)>
+
+<!ELEMENT D (#PCDATA)>
+
+<!ELEMENT GF (#PCDATA)>
+
+<!ELEMENT GC (#PCDATA)>
+
+<!ELEMENT DG (#PCDATA)>
+
+<!ELEMENT Pts (#PCDATA)>

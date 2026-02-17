@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Servidor Docker - Ale</title>
+  <style>
+    /* Fondo con degradado animado */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(-45deg, #ff9966, #ff5e62, #00c6ff, #0072ff);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      color: white;
+      text-align: center;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      font-weight: 400;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 1em;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2em 3em;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: rgba(255,255,255,0.7);
+    }
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 Prueba de Contenedor Docker</h1>
+    <h2>Creado por <b>Ale</b></h2>
+    <p>Este sitio está corriendo dentro de un contenedor Apache basado en Debian 🐧</p>
+    <p>¡Docker funcionando correctamente!</p>
+  </div>
+
+  <div class="footer">
+    <p>Hecho con ❤️ y mucho código — <a href="#">Ver proyecto</a></p>
+  </div>
+</body>
+</html>

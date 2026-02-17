@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Factura>
+    <Emisor>
+        <Nombre>Holded SA</Nombre>
+        <Direccion>Joan de Borbó, 101, Barcelona (08001), Barcelona, España</Direccion>
+        <Email>aldo.solanas@holded.com</Email>
+        <Telefono>932710167</Telefono>
+    </Emisor>
+
+    <Cliente>
+        <Nombre>Holded Technologies</Nombre>
+        <Telefono>932710167</Telefono>
+    </Cliente>
+
+    <Datos_Factura>
+        <Tipo>Factura Simplificada</Tipo>
+        <Numero>T190030</Numero>
+        <Fecha>2019-09-25</Fecha>
+    </Datos_Factura>
+
+    <Conceptos>
+        <Concepto>
+            <Descripcion>Gafas sol - Warfare</Descripcion>
+            <Precio>90.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>90.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>108.90</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>VANS bambas - bamba de color negro old school</Descripcion>
+            <Precio>70.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>70.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>84.70</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>Beanie - Talla M</Descripcion>
+            <Precio>25.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>25.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>30.25</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>Tabla de surf - Modelo 6.3</Descripcion>
+            <Precio>356.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>356.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>430.76</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>Camiseta Nike - Negra L</Descripcion>
+            <Precio>22.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>22.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>26.62</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>Camiseta Nike - Blanca XL</Descripcion>
+            <Precio>22.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>22.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>26.62</Total>
+        </Concepto>
+
+        <Concepto>
+            <Descripcion>Guantes - Piel reforzada / negro</Descripcion>
+            <Precio>12.00</Precio>
+            <Unidades>1</Unidades>
+            <Subtotal>12.00</Subtotal>
+            <IVA>21%</IVA>
+            <Total>14.52</Total>
+        </Concepto>
+    </Conceptos>
+
+    <Totales>
+        <Base_Imponible>597.00</Base_Imponible>
+        <IVA>125.37</IVA>
+        <Total>722.37</Total>
+    </Totales>
+
+    <Pago>
+        <Metodo>Transferencia</Metodo>
+        <IBAN>ES66210064184012345679</IBAN>
+    </Pago>
+</Factura>

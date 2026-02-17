@@ -1,0 +1,41 @@
+{
+  "Autor": {
+    "Nombre_Apellido": "Pedro Salinas",
+    "Indice": {
+      "Elemento": [
+        {
+          "Nombre": "Biografía",
+          "Subelemento": [
+            "Primeros años",
+            "Matrimonio y cátedra",
+            "Santander",
+            "Guerra civil y exilio"
+          ]
+        },
+        {
+          "Nombre": "Poeta del 27",
+          "Subelemento": [
+            "Etapas poéticas",
+            "Poeta del amor"
+          ]
+        },
+        "Prosista",
+        "Dramaturgo",
+        {
+          "Nombre": "Obra",
+          "Subelemento": [
+            "Poesía",
+            "Teatro",
+            "Traducciones",
+            "Narrativa",
+            "Ensayo",
+            "Epistolario"
+          ]
+        },
+        "Referencias",
+        "Notas",
+        "Bibliografía"
+      ]
+    }
+  }
+}

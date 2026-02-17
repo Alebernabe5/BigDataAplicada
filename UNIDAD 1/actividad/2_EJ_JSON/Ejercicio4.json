@@ -1,0 +1,400 @@
+{
+  "Clasificacion": {
+    "Temporada": "2019-2020",
+    "Fase": "Grupos",
+    "Grupos": [
+      {
+        "Letra": "A",
+        "Equipos": [
+          {
+            "Nombre": "Paris Saint-Germain",
+            "PJ": 6,
+            "V": 5,
+            "E": 1,
+            "D": 0,
+            "GF": 17,
+            "GC": 2,
+            "DG": 15,
+            "Pts": 16
+          },
+          {
+            "Nombre": "Real Madrid",
+            "PJ": 6,
+            "V": 3,
+            "E": 2,
+            "D": 1,
+            "GF": 14,
+            "GC": 8,
+            "DG": 6,
+            "Pts": 11
+          },
+          {
+            "Nombre": "Club Brujas",
+            "PJ": 6,
+            "V": 0,
+            "E": 3,
+            "D": 3,
+            "GF": 4,
+            "GC": 12,
+            "DG": -8,
+            "Pts": 3
+          },
+          {
+            "Nombre": "Galatasaray",
+            "PJ": 6,
+            "V": 0,
+            "E": 2,
+            "D": 4,
+            "GF": 1,
+            "GC": 14,
+            "DG": -13,
+            "Pts": 2
+          }
+        ]
+      },
+      {
+        "Letra": "B",
+        "Equipos": [
+          {
+            "Nombre": "Bayern Múnich",
+            "PJ": 6,
+            "V": 6,
+            "E": 0,
+            "D": 0,
+            "GF": 24,
+            "GC": 5,
+            "DG": 19,
+            "Pts": 18
+          },
+          {
+            "Nombre": "Tottenham Hotspur",
+            "PJ": 6,
+            "V": 3,
+            "E": 1,
+            "D": 2,
+            "GF": 18,
+            "GC": 14,
+            "DG": 4,
+            "Pts": 10
+          },
+          {
+            "Nombre": "Olympiacos",
+            "PJ": 6,
+            "V": 1,
+            "E": 1,
+            "D": 4,
+            "GF": 8,
+            "GC": 14,
+            "DG": -6,
+            "Pts": 4
+          },
+          {
+            "Nombre": "Estrella Roja",
+            "PJ": 6,
+            "V": 1,
+            "E": 0,
+            "D": 5,
+            "GF": 3,
+            "GC": 20,
+            "DG": -17,
+            "Pts": 3
+          }
+        ]
+      },
+      {
+        "Letra": "C",
+        "Equipos": [
+          {
+            "Nombre": "Manchester City",
+            "PJ": 6,
+            "V": 4,
+            "E": 2,
+            "D": 0,
+            "GF": 16,
+            "GC": 4,
+            "DG": 12,
+            "Pts": 14
+          },
+          {
+            "Nombre": "Atalanta",
+            "PJ": 6,
+            "V": 2,
+            "E": 1,
+            "D": 3,
+            "GF": 8,
+            "GC": 12,
+            "DG": -4,
+            "Pts": 7
+          },
+          {
+            "Nombre": "Shakhtar Donetsk",
+            "PJ": 6,
+            "V": 1,
+            "E": 3,
+            "D": 2,
+            "GF": 8,
+            "GC": 13,
+            "DG": -5,
+            "Pts": 6
+          },
+          {
+            "Nombre": "Dinamo Zagreb",
+            "PJ": 6,
+            "V": 1,
+            "E": 2,
+            "D": 3,
+            "GF": 10,
+            "GC": 13,
+            "DG": -3,
+            "Pts": 5
+          }
+        ]
+      },
+      {
+        "Letra": "D",
+        "Equipos": [
+          {
+            "Nombre": "Juventus",
+            "PJ": 6,
+            "V": 5,
+            "E": 1,
+            "D": 0,
+            "GF": 12,
+            "GC": 4,
+            "DG": 8,
+            "Pts": 16
+          },
+          {
+            "Nombre": "Atlético de Madrid",
+            "PJ": 6,
+            "V": 3,
+            "E": 1,
+            "D": 2,
+            "GF": 8,
+            "GC": 5,
+            "DG": 3,
+            "Pts": 10
+          },
+          {
+            "Nombre": "Bayer Leverkusen",
+            "PJ": 6,
+            "V": 2,
+            "E": 0,
+            "D": 4,
+            "GF": 5,
+            "GC": 9,
+            "DG": -4,
+            "Pts": 6
+          },
+          {
+            "Nombre": "Lokomotiv Moscú",
+            "PJ": 6,
+            "V": 1,
+            "E": 0,
+            "D": 5,
+            "GF": 4,
+            "GC": 11,
+            "DG": -7,
+            "Pts": 3
+          }
+        ]
+      },
+      {
+        "Letra": "E",
+        "Equipos": [
+          {
+            "Nombre": "Liverpool",
+            "PJ": 6,
+            "V": 4,
+            "E": 1,
+            "D": 1,
+            "GF": 13,
+            "GC": 8,
+            "DG": 5,
+            "Pts": 13
+          },
+          {
+            "Nombre": "Napoli",
+            "PJ": 6,
+            "V": 3,
+            "E": 3,
+            "D": 0,
+            "GF": 11,
+            "GC": 4,
+            "DG": 7,
+            "Pts": 12
+          },
+          {
+            "Nombre": "Red Bull Salzburgo",
+            "PJ": 6,
+            "V": 2,
+            "E": 1,
+            "D": 3,
+            "GF": 16,
+            "GC": 13,
+            "DG": 3,
+            "Pts": 7
+          },
+          {
+            "Nombre": "Genk",
+            "PJ": 6,
+            "V": 0,
+            "E": 1,
+            "D": 5,
+            "GF": 5,
+            "GC": 20,
+            "DG": -15,
+            "Pts": 1
+          }
+        ]
+      },
+      {
+        "Letra": "F",
+        "Equipos": [
+          {
+            "Nombre": "Barcelona",
+            "PJ": 6,
+            "V": 4,
+            "E": 2,
+            "D": 0,
+            "GF": 9,
+            "GC": 4,
+            "DG": 5,
+            "Pts": 14
+          },
+          {
+            "Nombre": "Borussia Dortmund",
+            "PJ": 6,
+            "V": 3,
+            "E": 1,
+            "D": 2,
+            "GF": 8,
+            "GC": 8,
+            "DG": 0,
+            "Pts": 10
+          },
+          {
+            "Nombre": "Inter de Milán",
+            "PJ": 6,
+            "V": 2,
+            "E": 1,
+            "D": 3,
+            "GF": 10,
+            "GC": 9,
+            "DG": 1,
+            "Pts": 7
+          },
+          {
+            "Nombre": "Slavia Praga",
+            "PJ": 6,
+            "V": 0,
+            "E": 2,
+            "D": 4,
+            "GF": 4,
+            "GC": 10,
+            "DG": -6,
+            "Pts": 2
+          }
+        ]
+      },
+      {
+        "Letra": "G",
+        "Equipos": [
+          {
+            "Nombre": "RB Leipzig",
+            "PJ": 6,
+            "V": 3,
+            "E": 2,
+            "D": 1,
+            "GF": 10,
+            "GC": 8,
+            "DG": 2,
+            "Pts": 11
+          },
+          {
+            "Nombre": "Olympique de Lyon",
+            "PJ": 6,
+            "V": 2,
+            "E": 2,
+            "D": 2,
+            "GF": 9,
+            "GC": 8,
+            "DG": 1,
+            "Pts": 8
+          },
+          {
+            "Nombre": "Benfica",
+            "PJ": 6,
+            "V": 2,
+            "E": 1,
+            "D": 3,
+            "GF": 10,
+            "GC": 11,
+            "DG": -1,
+            "Pts": 7
+          },
+          {
+            "Nombre": "Zenit San Petersburgo",
+            "PJ": 6,
+            "V": 2,
+            "E": 1,
+            "D": 3,
+            "GF": 7,
+            "GC": 9,
+            "DG": -2,
+            "Pts": 7
+          }
+        ]
+      },
+      {
+        "Letra": "H",
+        "Equipos": [
+          {
+            "Nombre": "Valencia",
+            "PJ": 6,
+            "V": 3,
+            "E": 2,
+            "D": 1,
+            "GF": 9,
+            "GC": 7,
+            "DG": 2,
+            "Pts": 11
+          },
+          {
+            "Nombre": "Chelsea",
+            "PJ": 6,
+            "V": 3,
+            "E": 2,
+            "D": 1,
+            "GF": 11,
+            "GC": 9,
+            "DG": 2,
+            "Pts": 11
+          },
+          {
+            "Nombre": "Ajax",
+            "PJ": 6,
+            "V": 3,
+            "E": 1,
+            "D": 2,
+            "GF": 12,
+            "GC": 6,
+            "DG": 6,
+            "Pts": 10
+          },
+          {
+            "Nombre": "Lille",
+            "PJ": 6,
+            "V": 0,
+            "E": 1,
+            "D": 5,
+            "GF": 4,
+            "GC": 14,
+            "DG": -10,
+            "Pts": 1
+          }
+        ]
+      }
+    ]
+  }
+}

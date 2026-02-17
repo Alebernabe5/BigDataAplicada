@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Elemento raíz -->
+  <xs:element name="Clasificacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Temporada" type="xs:string"/>
+        <xs:element name="Grupo" type="xs:string"/>
+        <xs:element name="Equipo" minOccurs="4" maxOccurs="4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre" type="xs:string"/>
+              <xs:element name="PJ" type="xs:integer"/>
+              <xs:element name="V" type="xs:integer"/>
+              <xs:element name="E" type="xs:integer"/>
+              <xs:element name="D" type="xs:integer"/>
+              <xs:element name="GF" type="xs:integer"/>
+              <xs:element name="GC" type="xs:integer"/>
+              <xs:element name="DG" type="xs:integer"/>
+              <xs:element name="Pts" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <!-- Elemento raíz -->
+  <xs:element name="Conjugacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Verbo" type="xs:string"/>
+        <xs:element name="Conjugacion" type="xs:string"/>
+        <xs:element name="Tiempos_Simples">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tiempo" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Tiempo_Verbal" type="xs:string"/>
+                    <!-- 3 personas en singular -->
+                    <xs:element name="Singular1" type="xs:string"/>
+                    <xs:element name="Singular2" type="xs:string"/>
+                    <xs:element name="Singular3" type="xs:string"/>
+                    <!-- 3 personas en plural -->
+                    <xs:element name="Plural1" type="xs:string"/>
+                    <xs:element name="Plural2" type="xs:string"/>
+                    <xs:element name="Plural3" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress:latest
+    container_name: servidor_wp1
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user_wp
+      WORDPRESS_DB_PASSWORD: test
+      WORDPRESS_DB_NAME: bd_wp
+    depends_on:
+      - db
+    restart: always
+
+  db:
+    image: mariadb:latest
+    container_name: servidor_mysql1
+    environment:
+      MYSQL_DATABASE: bd_wp
+      MYSQL_USER: user_wp
+      MYSQL_PASSWORD: test
+      MYSQL_ROOT_PASSWORD: test
+    restart: always

@@ -1,0 +1,12 @@
+<!ELEMENT E-mail (De, Para, CC?, Asunto, Cuerpo)>
+
+<!ELEMENT De (#PCDATA)>
+<!ELEMENT Asunto (#PCDATA)>
+<!ELEMENT Cuerpo (#PCDATA)>
+
+<!ELEMENT Para (Destinatario+)>
+
+<!ELEMENT CC (Copia*)>
+
+<!ELEMENT Destinatario (#PCDATA)>
+<!ELEMENT Copia (#PCDATA)>      
